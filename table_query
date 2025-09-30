@@ -1,0 +1,6 @@
+sample question : Query "row_name" within a "table_name" with a population greater than 5000 that is in United States. Countrycode for United States is 'USA'.
+key words and SQL translation
+row name within a table name = SELECT row name FROM table_name
+with a population of [numerical value] and is in the United States = WHERE population > [numerical value] AND countrycode = 'USA'
+end with a ;
+

@@ -6,3 +6,10 @@ end with a ;
 
 
 anytime a question states "QUERY ALL" use the asterisk (*) to generate a randomized, or wildcard, list.
+
+
+the difference between SELECT and SELECT DISTINCT is that SELECT is general pull from a dataset, while SELECT DISTINCT will pull only items that are distict from another. 
+for example, let us say you have a dataset of human names from the United States, living or dead. You will most likely come across duplicates like several "John Adams" or 
+"Mary Evans". Let us say you only want to pull people who share the same last name "Adams" but you do not one a whole bunch of "John Adams" in your query. 
+Using the SELECT DISTINCT prompt, it will only pull those who share user_lname "Adams" that are distinct from each other, meaning each person's first name is completely different. 
+This is what we want.

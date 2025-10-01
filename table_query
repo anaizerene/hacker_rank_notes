@@ -5,4 +5,4 @@ with a population of [numerical value] and is in the United States = WHERE popul
 end with a ;
 
 
-anytime a question staes "QUERY ALL" use the asterisk (*) to generate a randomized, or wildcard, list.
+anytime a question states "QUERY ALL" use the asterisk (*) to generate a randomized, or wildcard, list.
